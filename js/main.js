@@ -47,7 +47,7 @@ document.addEventListener('DOMContentLoaded', function(){
         if (inputStr.charAt(i) == " " ) {
           outputStr += '<img class="img-fluid" src="images/runekey/SPACE.png">';
         } else {            
-          outputStr += '<img class="img-fluid" src="images/runekey/' + inputStr.charAt(i) + '.png"><br>' + inputStr.charAt(i).toUpperCase();        
+          outputStr += '<img class="img-fluid" src="images/runekey/' + inputStr.charAt(i).toUpperCase() + '.png"><br>' + inputStr.charAt(i).toUpperCase();        
         }
 
         outputStr += '</td>';
